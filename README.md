@@ -84,7 +84,7 @@ The datasets were integrated into a master analytical table using SQL joins in G
 
 ---
 
-# Dashboard
+# Interactive Dashboard
 
 [Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
 
