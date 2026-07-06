@@ -46,10 +46,10 @@ By addressing these business questions, the analysis provides actionable insight
 
 The analysis integrates four business datasets:
 
-* **kf_final_transaction** — Transaction records
-* **kf_product** — Product information
-* **kf_kantor_cabang** — Branch information
-* **kf_inventory** — Inventory data
+* kf_final_transaction : Transaction records
+* kf_product : Product information
+* kf_kantor_cabang : Branch information
+* kf_inventory : Inventory data
 
 The datasets were integrated into a master analytical table using SQL joins in Google BigQuery before being visualized in Looker Studio.
 
