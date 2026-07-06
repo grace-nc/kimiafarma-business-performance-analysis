@@ -90,5 +90,4 @@ The datasets were integrated into a master analytical table using SQL joins in G
 
 # 👤 Author
 
-**Grace Natalie Catherine**
-Data Analyst | Big Data Analytics Portfolio Project
+Grace Natalie Catherine | Big Data Analytics Portfolio Project
