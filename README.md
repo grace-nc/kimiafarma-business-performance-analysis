@@ -5,7 +5,7 @@
 
 This project was completed as part of the **Big Data Analytics Project-Based Internship Program (Rakamin x Kimia Farma)**. The project focuses on evaluating Kimia Farma's business performance between **2020 and 2023** by integrating multiple business datasets and developing an interactive dashboard to generate actionable business insights.
 
-Dataset: [Dataset](https://drive.google.com/drive/folders/1iamlP6PxnTbGxvwC3F_Pde5UOa8L9i2e?usp=sharing)
+Dataset (csv files): [Dataset](https://drive.google.com/drive/folders/1iamlP6PxnTbGxvwC3F_Pde5UOa8L9i2e?usp=sharing)
 
 ---
 
@@ -60,7 +60,7 @@ The datasets were integrated into a master analytical table using SQL joins in G
 * SQL
 * Google BigQuery
 * Looker Studio
-* Microsoft Excel (csv file)
+* Microsoft Excel (csv)
 
 ---
 
