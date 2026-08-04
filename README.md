@@ -60,7 +60,7 @@ The datasets were integrated into a master analytical table using SQL joins in G
 * SQL
 * Google BigQuery
 * Looker Studio
-* Microsoft Excel
+* Microsoft Excel (csv file)
 
 ---
 
