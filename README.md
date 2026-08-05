@@ -57,10 +57,8 @@ The datasets were integrated into a master analytical table using SQL joins in G
 
 # Tools
 
-* SQL
-* Google BigQuery
+* SQL (Google BigQuery)
 * Looker Studio
-* Microsoft Excel (csv)
 
 ---
 
