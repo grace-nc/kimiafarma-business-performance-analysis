@@ -86,12 +86,12 @@ This analysis provides a comprehensive view of Kimia Farma's business performanc
 
 ---
 
-# Interactive Dashboard
+## Interactive Dashboard
 
 Dashboard Link: [Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
 
 ---
 
-# 👤 Author
+## 👤 Author
 
 Grace Natalie Catherine | Big Data Analytics Portfolio Project
