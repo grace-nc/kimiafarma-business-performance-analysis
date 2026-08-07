@@ -9,7 +9,7 @@ Dataset (csv files): [Dataset](https://drive.google.com/drive/folders/1iamlP6Pxn
 
 ---
 
-# Business Context
+## Business Context
 
 Kimia Farma is one of Indonesia's largest integrated pharmaceutical companies, operating an extensive network of pharmacies across the country. Every day, the company generates large volumes of transactional, product, branch, and inventory data through its nationwide operations.
 
@@ -19,7 +19,7 @@ This project integrates transactional, product, branch, and inventory datasets t
 
 ---
 
-# Problem Statement
+## Problem Statement
 
 Kimia Farma operates one of Indonesia's largest pharmacy networks, generating substantial volumes of transactional data across its branches nationwide. To support business growth and operational excellence, management requires a comprehensive understanding of business performance across different regions and over time.
 
@@ -31,7 +31,7 @@ By addressing these business questions, the analysis provides actionable insight
 
 ---
 
-# Goals
+## Goals
 
 * Analyze year-over-year business performance using Net Sales.
 * Identify the Top 10 provinces with the highest transaction volume.
@@ -42,7 +42,7 @@ By addressing these business questions, the analysis provides actionable insight
 
 ---
 
-# Dataset
+## Dataset
 
 The analysis integrates four business datasets:
 
@@ -55,14 +55,14 @@ The datasets were integrated into a master analytical table using SQL joins in G
 
 ---
 
-# Tools
+## Tools
 
 * SQL (Google BigQuery)
 * Looker Studio
 
 ---
 
-# Key Business Insights
+## Key Business Insights
 
 * Kimia Farma generated approximately **Rp321.2 Billion** in Net Sales and **Rp91.2 Billion** in Net Profit from approximately **672.5 thousand transactions** during 2020–2023.
 * Net Sales fluctuated over the four-year period, declining in 2021, recovering significantly in 2022, and decreasing again in 2023, indicating inconsistent year-over-year business growth.
@@ -72,13 +72,17 @@ The datasets were integrated into a master analytical table using SQL joins in G
 
 ---
 
-# Business Recommendations
+## Business Recommendations
 
 - Improve transaction efficiency and customer service quality across branches.
 - Strengthen marketing investments and inventory planning in high-performing provinces such as West Java to maximize revenue potential
 - Investigate the factors contributing to declining sales performance in 2023 and implement targeted promotional strategies to stimulate demand.
 - Develop targeted improvement programs for underperforming regions by analyzing local customer demand and operational performance.
 - Leverage  historical business data for sales forecasting, demand planning, and strategic resource allocation to support long-term business growth.
+
+## Conclusion
+
+This analysis provides a comprehensive view of Kimia Farma's business performance from 2020–2023, highlighting sales trends, regional contributions, and branch performance. These insights support data-driven decisions to optimize operations, improve business performance, and drive sustainable growth.
 
 ---
 
