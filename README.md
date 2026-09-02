@@ -15,7 +15,7 @@ Kimia Farma is one of Indonesia's largest integrated pharmaceutical companies, o
 
 As business operations continue to expand, leveraging historical business data becomes increasingly important for monitoring company performance, identifying sales trends, evaluating branch performance, and understanding regional business contributions. Data-driven insights enable management to optimize operational efficiency, improve customer experience, and formulate more effective business strategies.
 
-This project integrates transactional, product, branch, and inventory datasets to analyze Kimia Farma's business performance and transform raw data into meaningful insights through SQL and interactive business dashboards.
+This project integrates transactional, product, branch, and inventory datasets to analyze Kimia Farma's business performance and transform raw data into meaningful insights and interactive business dashboards.
 
 ---
 
