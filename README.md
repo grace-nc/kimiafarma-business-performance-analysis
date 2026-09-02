@@ -35,7 +35,7 @@ By addressing these business questions, the analysis provides actionable insight
 
 * Analyze year-over-year business performance using Net Sales.
 * Identify the Top 10 provinces with the highest transaction volume.
-* Identify the Top 10 provinces generating the highest Net Sales.
+* Identify the Top 5 provinces generating the highest Net Sales.
 * Identify branches with the highest branch ratings but the lowest transaction ratings.
 * Analyze the geographical distribution of Net Profit across Indonesia.
 * Develop an interactive dashboard to support business monitoring and strategic decision-making.
