@@ -25,27 +25,30 @@ This project integrates transactional, product, branch, and inventory data to as
 
 ## Problem Statement
 
-The key business challenge is to understand what is driving the Net Sales decline and where management attention should be prioritized.
+Kimia Farma operates one of Indonesia's largest pharmacy networks, generating substantial volumes of transactional data across its branches nationwide. Despite its extensive operations, Kimia Farma experienced a **decline in Net Sales in 2021 and 2023**.
 
-The analysis aims to answer the following questions:
+The decline may have been influenced by multiple factors. However, the key challenge is to determine **which factors contributed most significantly to the decline?**. Understanding these drivers is essential for identifying the business areas that require the most attention and improvement.
 
-- How did Transaction Volume, Net Sales, and AOV change over time?
-- Which provinces and branches contributed most significantly to the decline?
-- Does branch performance or operational performance explain the transaction decline?
-- Does product performance, pricing, discounts, customer spending, or seasonal effects contributing to the decline?
-- What actionable strategies can be developed based on the identified drivers?
+## Objective
 
-The objective is to identify the primary contributors to the Net Sales decline, assess the relative impact of potential drivers, and determine the key areas requiring further investigation and targeted action.
+The main objective of this project is to **identify and assess the key drivers behind Kimia Farma's Net Sales decline in 2021 and 2023 and identify priority areas for improvement to nett sales recovery.**
 
----
+The analysis aims to:
 
-# Goals
+1. **Assess Business Performance**
+   Evaluate the changes in **Transaction Volume, Net Sales, and Average Sales per Transaction** and quantify the magnitude of the decline in 2021 and 2023.
 
-### **1. Assess Business Performance**
-### **2. Identify Key Contributors**
-### **3. Evaluate Potential Drivers**
-### **4. Determine the Primary Driver**
-### **5. Develop Actionable Strategies**
+2. **Identify Key Contributors**
+   Determine which **provinces, branches, and products** contributed most significantly to the decline in Transaction Volume and Net Sales.
+
+3. **Evaluate Potential Drivers**
+   Assess whether the decline was associated with **transaction volume, product performance, pricing and discounts, operational and service quality, customer purchasing behavior, or seasonal effects**.
+
+4. **Determine the Key Drivers of Decline**
+   Identify the factors with the **strongest contribution to the Net Sales decline**, with particular focus on product and branch performance.
+
+5. **Identify Priority Areas for Improvement**
+   Translate the findings into **data-driven priorities and targeted actions** that can support Net Sales recovery.
 
 ---
 
