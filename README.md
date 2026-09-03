@@ -84,16 +84,12 @@ Net Sales closely followed changes in transaction volume:
 
 Meanwhile, AOV increased each year, indicating that the decline was primarily driven by **lower transaction volume rather than lower spending per transaction**.
 
----
-
 ## **2. West Java and East Java Are Key Areas of Decline**
 
 * **West Java** recorded the largest absolute transaction decline in **2021**.
 * **East Java** recorded the largest absolute transaction decline in **2023**.
 
 Both provinces are among the **Top 5 contributors to Transaction Volume, Net Sales, and Net Profit**, making them key areas for further analysis.
-
----
 
 ## **3. The Decline Is Broadly Distributed Across Branches**
 
@@ -111,8 +107,6 @@ Both provinces are among the **Top 5 contributors to Transaction Volume, Net Sal
 
 The decline is therefore **broadly distributed across the branch network**, rather than being isolated to a few branches.
 
----
-
 ## **4. Service Quality Is Not a Key Driver**
 
 The correlation between **Rating Gap** and transaction decline was close to zero:
@@ -121,8 +115,6 @@ The correlation between **Rating Gap** and transaction decline was close to zero
 * East Java: **0.058**
 
 This indicates that **branch/service quality does not meaningfully explain the transaction decline**.
-
----
 
 ## **5. February Decline Is a Calendar Effect**
 
@@ -135,8 +127,6 @@ After normalizing for operating days:
 
 Therefore, the February decline **does not indicate a deterioration in daily performance**.
 
----
-
 ## **6. Pricing, Discounts, and AOV Remained Relatively Stable**
 
 Changes in commercial indicators were relatively limited:
@@ -147,8 +137,6 @@ Changes in commercial indicators were relatively limited:
 | AOV MoM      |    -0.61% |    -2.26% |
 
 Combined with the YoY increase in AOV, the findings suggest that **pricing, discounts, and customer spending per transaction were not the primary drivers**.
-
----
 
 ## **7. Decline Is Concentrated in Key Products**
 
@@ -171,7 +159,6 @@ Key declines included:
 
 This shows that the decline is **concentrated in several high-impact products rather than being portfolio-wide**.
 
----
 
 ## **8. Internal Commercial Factors Do Not Fully Explain the Product Decline**
 
@@ -191,7 +178,6 @@ Focus recovery efforts on the **Top 2 declining Key Products**.
 
 **Objective:** Maximize potential Net Sales recovery through targeted product–branch interventions.
 
----
 
 ## **2. Conduct Key Product Performance Deep-Dive**
 
@@ -199,7 +185,6 @@ Identify the **largest and most persistent product–branch declines** and compa
 
 **Objective:** Establish a focused basis for further commercial investigation.
 
----
 
 ## **3. Validate Potential External Market Demand Leakage**
 
