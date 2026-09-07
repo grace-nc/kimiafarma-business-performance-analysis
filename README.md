@@ -6,7 +6,7 @@
 
 This project was completed as part of the **Big Data Analytics Project-Based Internship Program (Rakamin x Kimia Farma)**. The project analyzes Kimia Farma's business performance from **2020 to 2023** using transactional, product, branch, and inventory data.
 
-The analysis focuses on identifying **business performance trends, key contributors to Net Sales decline, and actionable strategies** using **Python**, **Google BigQuery**, and **Looker Studio**.
+The analysis focuses on identifying **business performance trends, key contributors to Net Sales decline, and actionable strategies** using **Google BigQuery**, **Python**, and **Looker Studio**.
 
 **Dataset:** [Access Dataset](https://drive.google.com/drive/folders/1iamlP6PxnTbGxvwC3F_Pde5UOa8L9i2e?usp=sharing)
 
