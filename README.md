@@ -94,9 +94,8 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 # Conclusion
 
-> **The Net Sales decline is primarily a transaction volume contraction concentrated in specific high-revenue product categories within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket-size issue.**
->
-> **Unstrategic pricing backfired in two ways: broad price cuts directly decreasing Net Sales without boosting transaction volume, while an unmanaged price hike (+1.20% on Hypnotics & Sedatives) also caused order volume to drop. Instead of making random price adjustments. Rather than changing price, the business needs to shift to targeted trade deals to drive sales volume while holding baseline prices.
+**The Net Sales decline is primarily a transaction volume decline concentrated in specific high-revenue product categories** and **unstrategic pricing** within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket size issue. Broad price cuts directly decreasing Net Sales without boosting transaction volume, while an unmanaged price hike (+1.20% on Hypnotics & Sedatives) also caused order volume to drop. Rather than changing price/price adjustments, the business needs to shift to targeted trade deals to drive sales volume while holding baseline prices.
+
 ---
 
 # Actionable Strategy Recommendations:
