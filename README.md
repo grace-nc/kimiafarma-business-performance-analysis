@@ -45,8 +45,8 @@ The analysis aims to:
 
 1. **Assess Business Performance:** Evaluate changes in Transaction Volume, Net Sales, and AOV to quantify the decline in 2021 and 2023.
 2. **Identify Key Contributors:** Determine priority provinces, branches, and product categories driving sales loss.
-3. **Evaluate Potential Drivers:** Assess operational service quality, pricing, customer spending behavior, and calendar seasonality.
-4. **Determine Key Root Causes:** Pinpoint the variables with the strongest impact on Net Sales contraction.
+3. **Evaluate Potential Drivers:** Assess operational service quality, pricing, and calendar seasonality.
+4. **Determine Key Root Causes:** Pinpoint the variables has impact on Net Sales contraction.
 5. **Formulate Priority Recovery Actions:** Translate findings into targeted commercial strategies.
 
 ---
@@ -74,7 +74,7 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 - Net Sales declines (**2021: -0.50%** | **2023: -0.57%**) directly mirror transaction volume drops (**-0.57%** and **-0.70%**).
 - Average Order Value (AOV) remained stable to increasing, confirming the decline is an **order frequency issue**, not basket size contraction.
 
-### **2. Seasonal Effect: Calendar Artifact**
+### **2. Seasonal Effect: Calendar Effects**
 - The February drop is an artifact of **fewer operational days (28 vs. 31 days)**.
 - Operating-day normalized run-rates show daily transactions actually increased (**+0.88% MoM in 2021** | **+0.81% MoM in 2023**), proving stable baseline demand.
 
@@ -87,8 +87,7 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ### **5. Product & Pricing: Core SKU Concentration & Inelastic Demand**
 - Sales leakage is heavily concentrated in **3–4 core therapeutic categories** (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*).
-- Unstrategic list price cuts (up to **-13.31%**) failed to drive volume recovery due to **price-inelastic demand**, exacerbating margin erosion.
-
+- Price cuts **did not attract more buyers**, leading to sales and margin loss without driving volume recovery, failed to boost sales volume.
 ---
 
 # Conclusion
