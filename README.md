@@ -98,19 +98,22 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ---
 
-# Actionable Strategies & Next Steps
+# Actionable Strategy Recommendations:
 
-1. **Halt Unstrategic Price Cuts & Protect Price Integrity**  
-   Discontinue broad list price reductions on core therapeutic categories (*Psycholeptics, Analgesics, Anti-inflammatory*) to safeguard gross margins.
+1. **Prioritize Recovery of Key Loss-Contributing Products**  
+   Target high-revenue, high-margin products with the steepest transaction drops to maximize sales recovery impact.
 
-2. **Shift to Performance-Based Commercial Incentives**  
-   Replace direct catalog discounts with volume-based trade rebates and tiered bundling with fast-moving items to encourage order frequency.
+2. **Avoid Broad Price Cuts & Protect Price Integrity**  
+   Stop broad list price reductions as a default strategy. Establish price for low-sensitivity products and implement cuts only when volume gains provably outweigh price dilution.
 
-3. **Deploy Priority Regional Recovery Plans**  
-   Focus field sales and inventory allocation on the **top 50% declining branches in West Java & East Java** that account for ~80% of volume losses.
+3. **Shift to Targeted Commercial Promotions**  
+   Replace permanent price cuts with performance-driven promotions on key therapeutic products across targeted healthcare facilities and pharmacies to boost order volume while protecting baseline prices.
 
-4. **Investigate External Market Demand Leakage**  
-   Conduct external trade audits to verify if transaction volume drops stem from stockouts, channel shifts, or competitor displacement in key product lines.
+4. **Focus Regional Recovery on West Java & East Java**  
+   Deploy priority recovery plans and set explicit volume and margin targets in **West Java** (focusing on 2021 core leakers) and **East Java** (focusing on 2023 core leakers).
+
+5. **Monitor Product-Level Pricing & Promotion Effectiveness**  
+   Track price, transaction, revenue, and gross profit metrics regularly. Limit discounting on low-sensitivity items and reallocate commercial resources to levers that actively drive volume.
 
 ---
 
