@@ -1,7 +1,6 @@
 # Query for Kimia Farma Data Analytics Project-based Internship
 # By Grace Natalie Catherine
 
-# Create Table with Join
 SELECT
     t.transaction_id,
     t.date,
@@ -33,9 +32,20 @@ SELECT
         WHEN t.price <= 500000 THEN 0.25
         ELSE 0.30
     END AS nett_profit,
-    t.rating AS rating_transaksi
+    t.rating AS rating_transaksi,
+    i.opname_stock 
 FROM `data-analyst-project-501602.kf_dataset.final_transaction` t
 JOIN `data-analyst-project-501602.kf_dataset.kantor_cabang` kc
     ON t.branch_id = kc.branch_id
 JOIN `data-analyst-project-501602.kf_dataset.product` p
-    ON t.product_id = p.product_id;
+    ON t.product_id = p.product_id
+LEFT JOIN (
+    SELECT 
+        branch_id, 
+        product_id, 
+        MAX(opname_stock) AS opname_stock
+    FROM `data-analyst-project-501602.kf_dataset.inventory`
+    GROUP BY branch_id, product_id
+) i
+    ON t.branch_id = i.branch_id 
+   AND t.product_id = i.product_id;
