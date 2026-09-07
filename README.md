@@ -1,11 +1,12 @@
 # Big Data Analytics Project: Kimia Farma Business Performance Analysis
 
-![SQL (BigQuery)](https://img.shields.io/badge/SQL%20\(BigQuery\)-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)
-![Looker Studio](https://img.shields.io/badge/Looker%20Studio-F9AB00?style=for-the-badge\&logo=googleanalytics\&logoColor=white)
+![SQL (BigQuery)](https://img.shields.io/badge/SQL%20\(BigQuery\)-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-F9AB00?style=for-the-badge&logo=googleanalytics&logoColor=white)
 
 This project was completed as part of the **Big Data Analytics Project-Based Internship Program (Rakamin x Kimia Farma)**. The project analyzes Kimia Farma's business performance from **2020 to 2023** using transactional, product, branch, and inventory data.
 
-The analysis focuses on identifying **business performance trends, key contributors to Net Sales decline, and actionable strategies** using **Google BigQuery** and **Looker Studio**.
+The analysis focuses on identifying **business performance trends, key contributors to Net Sales decline, and actionable strategies** using **Python**, **Google BigQuery**, and **Looker Studio**.
 
 **Dataset:** [Access Dataset](https://drive.google.com/drive/folders/1iamlP6PxnTbGxvwC3F_Pde5UOa8L9i2e?usp=sharing)
 
@@ -17,9 +18,14 @@ Kimia Farma is one of Indonesia's largest integrated pharmaceutical companies, o
 
 As the business continues to operate across diverse regions, leveraging historical data is essential to monitor business performance, identify sales trends, evaluate branch and regional contributions, and support data-driven decision-making.
 
-Kimia Farma experienced **Net Sales declines in 2021 and 2023**. These declines may have been influenced by various factors.
+Kimia Farma experienced **Net Sales declines in 2021 and 2023**. These declines may have been influenced by various commercial, operational, or market factors.
 
-This project integrates transactional, product, branch, and inventory data to assess business performance and identify the key factors contributing to the observed Net Sales decline.
+This project integrates transactional, product, branch, and inventory data to assess business performance and identify the key factors contributing to the observed Net Sales decline across 5 structured analytical dimensions:
+1. **Year-over-Year Sales Trend**
+2. **Seasonal Effect Analysis**
+3. **Geographical Performance Analysis**
+4. **Branch Performance & Service Quality Analysis**
+5. **Product Performance & Pricing Analysis**
 
 ---
 
@@ -29,47 +35,34 @@ Kimia Farma operates one of Indonesia's largest pharmacy networks, generating su
 
 The decline may have been influenced by multiple factors. However, the key challenge is to determine **which factors contributed most significantly to the decline?**. Understanding these drivers is essential for identifying the business areas that require the most attention and improvement.
 
+---
+
 ## Objective
 
-The main objective of this project is to **identify and assess the key drivers behind Kimia Farma's Net Sales decline in 2021 and 2023 and identify priority areas for improvement to nett sales recovery.**
+The main objective of this project is to **identify and assess the key drivers behind Kimia Farma's Net Sales decline in 2021 and 2023 and identify priority areas for improvement to net sales recovery.**
 
 The analysis aims to:
 
-1. **Assess Business Performance**
-   Evaluate the changes in **Transaction Volume, Net Sales, and Average Sales per Transaction** and quantify the magnitude of the decline in 2021 and 2023.
-
-2. **Identify Key Contributors**
-   Determine which **provinces, branches, and products** contributed most significantly to the decline in Transaction Volume and Net Sales.
-
-3. **Evaluate Potential Drivers**
-   Assess whether the decline was associated with **transaction volume, product performance, pricing and discounts, operational and service quality, customer purchasing behavior, or seasonal effects**.
-
-4. **Determine the Key Drivers of Decline**
-   Identify the factors with the **strongest contribution to the Net Sales decline**, with particular focus on product and branch performance.
-
-5. **Identify Priority Areas for Improvement**
-   Translate the findings into **data-driven priorities and targeted actions** that can support Net Sales recovery.
+1. **Assess Business Performance:** Evaluate changes in Transaction Volume, Net Sales, and AOV to quantify the decline in 2021 and 2023.
+2. **Identify Key Contributors:** Determine priority provinces, branches, and product categories driving sales loss.
+3. **Evaluate Potential Drivers:** Assess operational service quality, pricing, customer spending behavior, and calendar seasonality.
+4. **Determine Key Root Causes:** Pinpoint the variables with the strongest impact on Net Sales contraction.
+5. **Formulate Priority Recovery Actions:** Translate findings into targeted commercial strategies.
 
 ---
 
-# Dataset
+# Dataset & Tools
 
-The analysis integrates four datasets:
+### **Datasets**
+Joined into a master analytical table using SQL in **Google BigQuery**:
+* `kf_final_transaction` — Transaction-level records
+* `kf_product` — Product information and therapeutic categories
+* `kf_kantor_cabang` — Branch and regional information
+* `kf_inventory` — Inventory status data
 
-| Dataset                | Description                     |
-| ---------------------- | ------------------------------- |
-| `kf_final_transaction` | Transaction-level records       |
-| `kf_product`           | Product information             |
-| `kf_kantor_cabang`     | Branch and regional information |
-| `kf_inventory`         | Inventory data                  |
-
-The datasets were joined into a **master analytical table** using SQL in **Google BigQuery**.
-
----
-
-# Tools
-
-* **SQL (Google BigQuery)** — Data integration, transformation, and analysis
+### **Tools**
+* **SQL (Google BigQuery)** — Data integration, transformation, and analytical querying
+* **Python** — Exploratory data analysis (EDA), statistical evaluation, and data processing
 * **Looker Studio** — Interactive dashboard development
 * **CSV / Google Drive** — Dataset management
 
@@ -77,141 +70,57 @@ The datasets were joined into a **master analytical table** using SQL in **Googl
 
 # Key Business Insights
 
-## **1. Net Sales Decline Is Transaction-Driven**
+### **1. YoY Sales Trend: Volume-Driven Loss**
+- Net Sales declines (**2021: -0.50%** | **2023: -0.57%**) directly mirror transaction volume drops (**-0.57%** and **-0.70%**).
+- Average Order Value (AOV) remained stable to increasing, confirming the decline is an **order frequency issue**, not basket size contraction.
 
-Net Sales closely followed changes in transaction volume:
+### **2. Seasonal Effect: Calendar Artifact**
+- The February drop is an artifact of **fewer operational days (28 vs. 31 days)**.
+- Operating-day normalized run-rates show daily transactions actually increased (**+0.88% MoM in 2021** | **+0.81% MoM in 2023**), proving stable baseline demand.
 
-* **2021:** Transactions **-0.57%** → Net Sales **-0.50%**
-* **2022:** Transactions **+0.56%** → Net Sales **+0.67%**
-* **2023:** Transactions **-0.70%** → Net Sales **-0.57%**
+### **3. Geographical Focus: Highly Concentrated**
+- Top-line losses were localized in two primary growth markets: **West Java** (drove the 2021 decline) and **East Java** (drove the 2023 decline).
 
-Meanwhile, AOV increased each year, indicating that the decline was primarily driven by **lower transaction volume rather than lower spending per transaction**.
+### **4. Branch Performance: Systemic, Not Quality-Driven**
+- Losses are broadly distributed across the network (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
+- High Branch Ratings (>4.0) and near-zero correlation between rating gaps and transaction drops ($\approx 0$) rule out service quality deficits.
 
-## **2. West Java and East Java Are Key Areas of Decline**
+### **5. Product & Pricing: Core SKU Concentration & Inelastic Demand**
+- Sales leakage is heavily concentrated in **3–4 core therapeutic categories** (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*).
+- Unstrategic list price cuts (up to **-13.31%**) failed to drive volume recovery due to **price-inelastic demand**, exacerbating margin erosion.
 
-* **West Java** recorded the largest absolute transaction decline in **2021**.
-* **East Java** recorded the largest absolute transaction decline in **2023**.
+---
 
-Both provinces are among the **Top 5 contributors to Transaction Volume, Net Sales, and Net Profit**, making them key areas for further analysis.
+# Conclusion
 
-## **3. The Decline Is Broadly Distributed Across Branches**
-
-### West Java — 2021
-
-* **269** declining branches
-* **3,317** lost transactions
-* **51.7% of branches** contributed ~**80.16%** of the total decline
-
-### East Java — 2023
-
-* **51** declining branches
-* **686** lost transactions
-* **52.9% of branches** contributed ~**80.03%** of the total decline
-
-The decline is therefore **broadly distributed across the branch network**, rather than being isolated to a few branches.
-
-## **4. Service Quality Is Not a Key Driver**
-
-The correlation between **Rating Gap** and transaction decline was close to zero:
-
-* West Java: **-0.055**
-* East Java: **0.058**
-
-This indicates that **branch/service quality does not meaningfully explain the transaction decline**.
-
-## **5. February Decline Is a Calendar Effect**
-
-February showed the largest monthly transaction decline, but it also has fewer operating days.
-
-After normalizing for operating days:
-
-* West Java: Daily transactions **+0.67%**
-* East Java: Daily transactions **+1.89%**
-
-Therefore, the February decline **does not indicate a deterioration in daily performance**.
-
-## **6. Pricing, Discounts, and AOV Remained Relatively Stable**
-
-Changes in commercial indicators were relatively limited:
-
-| Indicator    | West Java | East Java |
-| ------------ | --------: | --------: |
-| Discount MoM |    -1.33% |    -0.15% |
-| AOV MoM      |    -0.61% |    -2.26% |
-
-Combined with the YoY increase in AOV, the findings suggest that **pricing, discounts, and customer spending per transaction were not the primary drivers**.
-
-## **7. Decline Is Concentrated in Key Products**
-
-The **Top 2 Key Products** contributed substantially to lost Net Sales:
-
-* **West Java 2021:** > **Rp25M** combined lost Net Sales
-* **East Java 2023:** > **Rp105M** combined lost Net Sales
-
-Key declines included:
-
-**West Java 2021**
-
-* Propionic acid derivatives: **-Rp14.11M (-3.55%)**
-* Anxiolytic drugs: **-Rp11.08M (-5.30%)**
-
-**East Java 2023**
-
-* Acetic acid derivatives: **-Rp54.14M (-14.93%)**
-* Pyrazolones & Anilides: **-Rp51.32M (-11.65%)**
-
-This shows that the decline is **concentrated in several high-impact products rather than being portfolio-wide**.
-
-
-## **8. Internal Commercial Factors Do Not Fully Explain the Product Decline**
-
-While **pricing, discounts, AOV, and branch rating gaps** remained relatively stable, significant declines occurred in specific Key Products.
+> **The Net Sales decline is primarily a transaction volume contraction concentrated in specific high-revenue therapeutic categories within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket-size issue.**
+>
+> Broad price cuts failed to stimulate volume growth due to price-inelastic demand, exacerbating revenue loss. Commercial priorities must pivot from unstrategic discounting toward volume recovery on key product lines in high-impact provinces.
 
 ---
 
 # Actionable Strategies & Next Steps
 
-## **1. Prioritize Key Product Recovery**
+1. **Halt Unstrategic Price Cuts & Protect Price Integrity**  
+   Discontinue broad list price reductions on core therapeutic categories (*Psycholeptics, Analgesics, Anti-inflammatory*) to safeguard gross margins.
 
-Focus recovery efforts on the **Top 2 declining Key Products**.
+2. **Shift to Performance-Based Commercial Incentives**  
+   Replace direct catalog discounts with volume-based trade rebates and tiered bundling with fast-moving items to encourage order frequency.
 
-* Prioritize branches with the largest transaction decline.
-* Rank branch–product combinations by potential Net Sales impact.
-* Focus resources on the highest-impact opportunities.
+3. **Deploy Priority Regional Recovery Plans**  
+   Focus field sales and inventory allocation on the **top 50% declining branches in West Java & East Java** that account for ~80% of volume losses.
 
-**Objective:** Maximize potential Net Sales recovery through targeted product–branch interventions.
-
-
-## **2. Conduct Key Product Performance Deep-Dive**
-
-Identify the **largest and most persistent product–branch declines** and compare them with other products within the same branches.
-
-**Objective:** Establish a focused basis for further commercial investigation.
-
-
-## **3. Validate Potential External Market Demand Leakage**
-
-Because internal commercial variables remained relatively stable, the Product-level decline should be further investigated for potential **external market demand leakage**.
-
-**Objective:** Understand **why demand declined** and enable more targeted commercial action.
+4. **Investigate External Market Demand Leakage**  
+   Conduct external trade audits to verify if transaction volume drops stem from stockouts, channel shifts, or competitor displacement in key product lines.
 
 ---
 
 # Interactive Dashboard
 
-[Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
-
----
-
-# Dataset
-
-The original CSV datasets used in this project are available here:
-
-[Dataset](https://drive.google.com/drive/folders/1iamlP6PxnTbGxvwC3F_Pde5UOa8L9i2e?usp=sharing)
+* **Interactive Dashboard:** [Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
 
 ---
 
 # Author
 
 **Grace Natalie Catherine** | Big Data Analytics Project
-
