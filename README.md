@@ -67,6 +67,7 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * **CSV / Google Drive** — Dataset management
 
 ---
+
 # Insights
 
 ### **1. YoY Sales Trend: Volume-Driven Loss**
@@ -82,39 +83,52 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ### **4. Branch Performance: Systemic, Not Quality-Driven**
 - Losses are broadly distributed across the branches (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
-- High Branch Ratings (>4.0) and lower transactions rating (<=3.0) were only small proportions of transactions, and near-zero correlation between rating gaps and transaction drops ($\approx 0$) rule out service quality deficits.
+- High Branch Ratings (>4.0) and lower transactions rating (<=3.0) were only small proportions of transactions, and near-zero correlation between rating gaps and transaction drops rule out service quality deficits reflected in branch rating and transactions rating.
 
-### **5. Product & Pricing: Core Products Concentration & Two-Way Commercial Failure**
+### **5. Inventory Analysis: Out-of-Stock Risk Disconfirmed**
+- Average stock levels across top loss-contributing products remained remarkably stable between January and February ($\Delta \text{ Stock} \approx -0.3\% \text{ to } -1.6\%$).
+- All key categories held safe stock level in February (**75–77 units opname stock**), disconfirming supply chain bottlenecks or stockouts issue.
+- Sharp transaction and revenue declines occurred despite store-level product availability, proving that top-line loss is driven by **commercial and demand failure**, not supply failure.
+
+### **6. Product & Pricing: Core Products Concentration & Two-Way Commercial Failure**
 - Sales leakage is heavily concentrated in **3–4 core therapeutic categories** (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*).
-- **Failed Price Cuts:** Broad list price reductions (up to **-13.31%**) failed to stimulate volume under price-inelastic demand, directly eroding unit margins without driving volume recovery.
-- **Price Hike Anomaly:** A list price increase on *Psycholeptics, Hypnotics & Sedatives* (**+1.20%** in West Java) triggered severe transaction volume contraction, proving that unmanaged price hikes on sensitive SKUs actively destroy demand.
-- **Flat Discounts ($\Delta \approx 0.00\%$):** Discount rates remained virtually unchanged, confirming net sales decline driven purely by structural list price adjustments, not promotional leakage.
+- **Failed Price Cuts:** Broad list price reductions (up to -13.31%) failed to stimulate transaction volume, directly declining sales without uplifting volume transactions.
+- **Price Hike Anomaly:** A list price increase on *Psycholeptics, Hypnotics & Sedatives* (**+1.20%** in West Java) also contributed to declining the sales. 
+- **Flat Discounts ($\Delta \approx 0.00\%$):** Discount rates remained unchanged (% of discount change close to zero), confirming net sales decline driven purely by unstrategic price adjustments, not promotional leakage.
 
 ---
 
 # Conclusion
 
-**The Net Sales decline is primarily a transaction volume decline concentrated in specific high-revenue product categories** and **unstrategic pricing** within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket size issue. Broad price cuts directly decreasing Net Sales without boosting transaction volume, while an unmanaged price hike (+1.20% on Hypnotics & Sedatives) also caused order volume to drop. Rather than changing price/price adjustments, the business needs to shift to targeted trade deals to drive sales volume while holding baseline prices.
+**The Net Sales decline is fundamentally driven by 2 factors: transaction volume drop concentrated in key high-revenue products and unstrategic pricing** across **West Java (2021)** and **East Java (2023)**. 
+
+Operational factors, service quality deficits, seasonal effects, and stock availability are disconfirmed as root causes. Instead, unstrategic pricing adjustments drove a two-way commercial failure: broad price cuts decreasing sales without stimulating volume and unmanaged price hikes (without added value proportions) also triggered order frequency contractions. 
+
+Rather than executing list price changes, commercial strategy must pivot toward **stabilizing baseline prices and recovering order volume through structured trade deals/promotions/incentives**, and **supported by field market intelligence to address external demand drivers**.
 
 ---
 
-# Actionable Strategy Recommendations:
+# Actionable Strategy Recommendations
 
 1. **Prioritize Recovery of Key Loss-Contributing Products**  
    Target high-revenue, high-margin products with the highest transaction drops (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*) to maximize sales recovery impact.
 
-2. **Establish Disciplined Catalog Pricing (Address Price Cuts & Price Hikes)**  
-   - **Stop Unnecessary Price Cuts**: Avoid cutting catalog prices across the board. Keep base prices steady on products with low price sensitivity to protect overall revenue.
-   - **Re-evaluate Unaligned Price Hikes:** Review price increases (e.g., *Hypnotics & Sedatives* at **+1.20%**) that triggered sharp volume drops. Ensure price hikes are backed by value propositions or trade support to prevent demand contraction.
+2. **Shift Focus from Inventory Operations to Commercial Execution**  
+   Maintain existing buffer inventory standards while redirecting operational focus away from supply chain troubleshooting toward trade execution, market coverage, and salesforce activation.
 
-3. **Shift to Targeted Commercial Promotions**  
+3. **Establish Disciplined Catalog Pricing (Address Price Cuts & Price Hikes)**  
+   - **Stop Unnecessary Price Cuts:** Avoid cutting catalog prices across the board. Keep base prices steady on products with low price sensitivity to protect overall revenue.
+   - **Re-evaluate Unaligned Price Hikes:** Review price increases (e.g., *Hypnotics & Sedatives* at **+1.20%**) that also contribute to sales decline. Ensure price hikes are backed by value propositions or trade support to prevent demand contraction.
+
+4. **Shift to Targeted Commercial Promotions**  
    Replace permanent list-price changes with performance-driven trade promotions (volume-based tiered discounts, product bundling, and channel incentives) to boost order frequency while protecting baseline prices.
 
-4. **Focus Regional Recovery on West Java & East Java**  
+5. **Focus Regional Recovery on West Java & East Java**  
    Focus on priority recovery plans and set explicit volume and sales targets in **West Java** and **East Java**.
 
-5. **Monitor Product-Level Price & Promotion Effectiveness**  
-   Regularly monitor how price changes impact order volume and Net Sales. Stop discounting products that do not respond to price cuts, avoid sharp price hikes on sensitive products, and focus commercial effort on levers that actually boost sales volume.
+6. **Conduct Field Market Intelligence & Monitor Effectiveness**  
+   - Deploy field teams to investigate external demand drivers (competitor price moves, pharmacy credit terms, customer demand shifts).
+   - Continuously monitor how price and trade adjustments impact transaction volume and Net Sales.
    
 ---
 
