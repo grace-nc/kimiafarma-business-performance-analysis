@@ -81,7 +81,7 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 ### **3. Geographical Focus: Highly Concentrated**
 - Top-line losses were localized in two primary markets (top 5 sales contributor): **West Java** (drove the 2021 decline) and **East Java** (drove the 2023 decline).
 
-### **4. Branch Performance: Systemic, Not Quality-Driven**
+### **4. Branch Performance: Systemic Drop, Not Across Specific Braches**
 - Losses are broadly distributed across the branches (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
 - High Branch Ratings (>4.0) and lower transactions rating (<=3.0) were only small proportions of transactions, and near-zero correlation between rating gaps and transaction drops rule out service quality deficits reflected in branch rating and transactions rating.
 
