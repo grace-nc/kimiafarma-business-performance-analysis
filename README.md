@@ -67,54 +67,56 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * **CSV / Google Drive** — Dataset management
 
 ---
-
-# Key Business Insights
+# Insights
 
 ### **1. YoY Sales Trend: Volume-Driven Loss**
 - Net Sales declines (**2021: -0.50%** | **2023: -0.57%**) directly mirror transaction volume drops (**-0.57%** and **-0.70%**).
-- Average Order Value (AOV) remained stable to increasing, confirming the decline is an **order frequency issue**, not basket size contraction.
+- Average Order Value (AOV) remained stable to increasing, confirming the decline is an **order frequency issue**.
 
 ### **2. Seasonal Effect: Calendar Effects**
 - The February drop is an artifact of **fewer operational days (28 vs. 31 days)**.
-- Operating-day normalized run-rates show daily transactions actually increased (**+0.88% MoM in 2021** | **+0.81% MoM in 2023**), proving stable baseline demand.
+- Operating-day normalized run-rates show daily transactions actually increased (**+0.88% MoM in 2021** | **+0.81% MoM in 2023**), proving stable baseline demand in February.
 
 ### **3. Geographical Focus: Highly Concentrated**
-- Top-line losses were localized in two primary growth markets: **West Java** (drove the 2021 decline) and **East Java** (drove the 2023 decline).
+- Top-line losses were localized in two primary markets (top 5 sales contributor): **West Java** (drove the 2021 decline) and **East Java** (drove the 2023 decline).
 
 ### **4. Branch Performance: Systemic, Not Quality-Driven**
-- Losses are broadly distributed across the network (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
-- High Branch Ratings (>4.0) and near-zero correlation between rating gaps and transaction drops ($\approx 0$) rule out service quality deficits.
+- Losses are broadly distributed across the branches (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
+- High Branch Ratings (>4.0) and lower transactions rating (<=3.0) were only small proportions of transactions, and near-zero correlation between rating gaps and transaction drops ($\approx 0$) rule out service quality deficits.
 
-### **5. Product & Pricing: Core SKU Concentration & Inelastic Demand**
+### **5. Product & Pricing: Core Products Concentration & Two-Way Commercial Failure**
 - Sales leakage is heavily concentrated in **3–4 core therapeutic categories** (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*).
-- Price cuts **did not attract more buyers**, leading to sales and margin loss without driving volume recovery, failed to boost sales volume.
+- **Failed Price Cuts:** Broad list price reductions (up to **-13.31%**) failed to stimulate volume under price-inelastic demand, directly eroding unit margins without driving volume recovery.
+- **Price Hike Anomaly:** A list price increase on *Psycholeptics, Hypnotics & Sedatives* (**+1.20%** in West Java) triggered severe transaction volume contraction, proving that unmanaged price hikes on sensitive SKUs actively destroy demand.
+- **Flat Discounts ($\Delta \approx 0.00\%$):** Discount rates remained virtually unchanged, confirming net sales decline driven purely by structural list price adjustments, not promotional leakage.
+
 ---
 
 # Conclusion
 
-> **The Net Sales decline is primarily a transaction volume contraction concentrated in specific high-revenue therapeutic categories within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket-size issue.**
+> **The Net Sales decline is primarily a transaction volume contraction concentrated in specific high-revenue product categories within West Java (2021) and East Java (2023), rather than an operational, service quality, seasonality, or customer basket-size issue.**
 >
-> Broad price cuts failed to stimulate volume growth due to price-inelastic demand, exacerbating revenue loss. Commercial priorities must pivot from unstrategic discounting toward volume recovery on key product lines in high-impact provinces.
-
+> **Unstrategic pricing backfired in two ways: broad price cuts directly decreasing Net Sales without boosting transaction volume, while an unmanaged price hike (+1.20% on Hypnotics & Sedatives) also caused order volume to drop. Instead of making random price adjustments. Rather than changing price, the business needs to shift to targeted trade deals to drive sales volume while holding baseline prices.
 ---
 
 # Actionable Strategy Recommendations:
 
 1. **Prioritize Recovery of Key Loss-Contributing Products**  
-   Target high-revenue, high-margin products with the steepest transaction drops to maximize sales recovery impact.
+   Target high-revenue, high-margin products with the highest transaction drops (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*) to maximize sales recovery impact.
 
-2. **Avoid Broad Price Cuts & Protect Price Integrity**  
-   Stop broad list price reductions as a default strategy. Establish price for low-sensitivity products and implement cuts only when volume gains provably outweigh price dilution.
+2. **Establish Disciplined Catalog Pricing (Address Price Cuts & Price Hikes)**  
+   - **Stop Unnecessary Price Cuts**: Avoid cutting catalog prices across the board. Keep base prices steady on products with low price sensitivity to protect overall revenue.
+   - **Re-evaluate Unaligned Price Hikes:** Review price increases (e.g., *Hypnotics & Sedatives* at **+1.20%**) that triggered sharp volume drops. Ensure price hikes are backed by value propositions or trade support to prevent demand contraction.
 
 3. **Shift to Targeted Commercial Promotions**  
-   Replace permanent price cuts with performance-driven promotions on key therapeutic products across targeted healthcare facilities and pharmacies to boost order volume while protecting baseline prices.
+   Replace permanent list-price changes with performance-driven trade promotions (volume-based tiered discounts, product bundling, and channel incentives) to boost order frequency while protecting baseline prices.
 
 4. **Focus Regional Recovery on West Java & East Java**  
-   Deploy priority recovery plans and set explicit volume and margin targets in **West Java** (focusing on 2021 core leakers) and **East Java** (focusing on 2023 core leakers).
+   Focus on priority recovery plans and set explicit volume and sales targets in **West Java** and **East Java**.
 
-5. **Monitor Product-Level Pricing & Promotion Effectiveness**  
-   Track price, transaction, revenue, and gross profit metrics regularly. Limit discounting on low-sensitivity items and reallocate commercial resources to levers that actively drive volume.
-
+5. **Monitor Product-Level Price & Promotion Effectiveness**  
+   Regularly monitor how price changes impact order volume and Net Sales. Stop discounting products that do not respond to price cuts, avoid sharp price hikes on sensitive products, and focus commercial effort on levers that actually boost sales volume.
+   
 ---
 
 # Interactive Dashboard
