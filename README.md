@@ -132,9 +132,10 @@ Rather than executing list price changes, commercial strategy must pivot toward 
    
 ---
 
-# Interactive Dashboard
+# Interactive Dashboard & PPT
 
 * **Interactive Dashboard:** [Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
+* **PPT:** [Slides](https://docs.google.com/presentation/d/1d9zZ8hxcTwWHzCfweiNWnFmOmumwUQRs/edit?usp=sharing&ouid=113253202730031428002&rtpof=true&sd=true)
 
 ---
 
