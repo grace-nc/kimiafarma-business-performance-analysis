@@ -61,8 +61,8 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * `kf_inventory` — Inventory status data
 
 ### **Tools**
-* **SQL (Google BigQuery)** — Data integration, transformation, and analytical querying
-* **Python** — Exploratory data analysis (EDA), statistical evaluation, and data processing
+* **SQL (Google BigQuery)** — Data integration, data transformation, and analytical querying
+* **Python** — Exploratory data analysis (EDA)
 * **Looker Studio** — Interactive dashboard development
 * **CSV / Google Drive** — Dataset management
 
