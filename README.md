@@ -131,10 +131,10 @@ Rather than executing list price changes, commercial strategy must pivot toward 
    - Continuously monitor how price and trade adjustments impact transaction volume and Net Sales.
 
 7. **Segment Customers & Execute Targeted Strategies**
-- Identify Declining Customers: Segment customers based on purchase frequency, recency, transaction value, product category, and geography to identify customers driving transaction declines.
-- Prioritize Customers: Focus on high-value and declining customers, particularly those purchasing key loss-contributing products.
-- Deploy Targeted Win-Back Actions: Use personalized offers, product bundles, sales follow-ups, and reactivation programs based on customer behavior.
-- Track Recovery: Monitor transaction frequency, repeat purchase rate, customer retention, and Net Sales by customer segment to measure intervention effectiveness.
+   - Identify Declining Customers: Segment customers based on purchase frequency, recency, transaction value, product category, and geography to identify customers driving transaction declines.
+   - Prioritize Customers: Focus on high-value and declining customers, particularly those purchasing key loss-contributing products.
+   - Deploy Targeted Actions: Use personalized offers, product bundles, sales follow-ups, and reactivation programs based on customer behavior.
+   - Track Recovery: Monitor transaction frequency, repeat purchase rate, customer retention, and Net Sales by customer segment to measure intervention effectiveness.
    
 ---
 
