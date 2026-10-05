@@ -66,76 +66,70 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * **Looker Studio** — Interactive dashboard development
 * **CSV / Google Drive** — Dataset management
 
----
-
 # Insights
 
-### **1. YoY Sales Trend: Volume-Driven Loss**
-- Net Sales declines (**2021: -0.50%** | **2023: -0.57%**) directly mirror transaction volume drops (**-0.57%** and **-0.70%**).
-- Average Order Value (AOV) remained stable to increasing, confirming the decline is an **order frequency issue**.
+### 1. Annual Sales Trend
+* **Net Sales & Volume Decline**: Net Sales contractions in loss years (**2021: -0.50%** | **2023: -0.57%**) directly mirror transaction volume drops (**-0.57%** and **-0.70%**).
+* **Basket Size Stability**: **Average Order Value (AOV)** remained stable or increased across periods, confirming that customer spending per transaction did not contract.
 
-### **2. Seasonal Effect: Calendar Effects**
-- The February drop is an artifact of **fewer operational days (28 vs. 31 days)**.
-- Operating-day normalized run-rates show daily transactions actually increased (**+0.88% MoM in 2021** | **+0.81% MoM in 2023**), proving stable baseline demand in February.
+### 2. Seasonal Dynamics & Retention Vulnerability (Q4 Drop)
+* **Q1–Q3 Baseline Recovery**: Across all four years (2020–2023), Q1 establishes the baseline low, followed by a continuous recovery curve leading into Q3.
+* **Q4 Performance Divergence**:
+  * **Strong Years (2020 & 2022)**: Transaction volume continued to increase in Q4.
+  * **Loss Years (2021 & 2023)**: Transaction volume dropped in Q4.
+* **Cohort & RFM Retention Breakdown (Core Driver)**:
+  * The business operates on a **critically low baseline retention rate (1%–3%)**, leaving revenue unprotected by recurring buyers.
 
-### **3. Geographical Focus: Highly Concentrated**
-- Top-line losses were localized in two primary markets (top 5 sales contributor): **West Java** (drove the 2021 decline) and **East Java** (drove the 2023 decline).
+### 3. Geographical Isolation: Concentrated Regional Impact
+* **Regional Hub Concentration**: Top-line revenue losses were hyper-focused in two primary commercial markets (top sales contributors):
+  * **West Java**: Primary driver of the 2021 sales decline.
+  * **East Java**: Primary driver of the 2023 sales decline.
 
-### **4. Branch Performance: Systemic Drop, Not Concentrated In A Number of Branches**
-- Losses are broadly distributed across the branches (**>50% of branches** account for ~80% of regional drops), ruling out isolated underperformance.
-- High Branch Ratings (>4.0) and lower transactions rating (<=3.0) were only small proportions of transactions, and near-zero correlation between rating gaps and transaction drops rule out service quality deficits reflected in branch rating and transactions rating.
+### 4. Braches Performance: Systemic Drop across Branches in 2021 and 2023
+* **Pareto Analysis in Branches Drop**: Loss distribution is broad rather than isolated to specific weak locations (>40% of branches account for ~80% of regional drops):
+  * **West Java**: 110 of 265 declining branches (**41.5%**).
+  * **East Java**: 22 of 51 declining branches (**42.8%**).
+* High Branch Operations Ratings (**>4.0** average) with a low-rated orders (were only **<2.4%** of total orders), paired with near-zero correlation between rating gaps and transaction drops, rule out branch or transaction performance as a root cause.
 
-### **5. Inventory Analysis: Out-of-Stock Risk Disconfirmed**
-- Average stock levels across top loss-contributing products remained remarkably stable between January and February ($\Delta \text{ Stock} \approx -0.3\% \text{ to } -1.6\%$).
-- All key categories held safe stock level in February (**75–77 units opname stock**), disconfirming supply chain bottlenecks or stockouts issue.
-- Sharp transaction and revenue declines occurred despite store-level product availability, proving that top-line loss is driven by **commercial and demand failure**, not supply failure.
+### 5. Product & Pricing: Therapeutic Concentration & Unstrategic Pricing
+* **Category Loss Concentration in Q4**: Revenue loss is heavily concentrated in **2 primary therapeutic categories**: *Psycholeptics*, *Analgesics/Antipyretics*, and *Antihistamines for systemics use* drugs, contributing **73% to 100%** of total identified sales loss in priority regions in both loss years (2021 and 2023).
+* **Price Fluctuation & Discount Stability in Q4**: List prices and promotional discount rates in Q4 both loss years (2021 and 2023) remained virtually flat (~0% fluctuation).
 
-### **6. Product & Pricing: Core Products Concentration & Two-Way Commercial Failure**
-- Sales leakage is heavily concentrated in **3–4 core therapeutic categories** (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*).
-- **Failed Price Cuts:** Broad list price reductions (up to -13.31%) failed to stimulate transaction volume, directly declining sales without uplifting volume transactions.
-- **Price Hike Anomaly:** A list price increase on *Psycholeptics, Hypnotics & Sedatives* (**+1.20%** in West Java) also contributed to declining the sales. 
-- **Flat Discounts ($\Delta \approx 0.00\%$):** Discount rates remained unchanged (% of discount change close to zero), confirming net sales decline driven purely by unstrategic price adjustments, not promotional leakage.
+### 6. Operational & External Disconfirmations
+* **Inventory Availability (Stable)**: Average opname inventory stock levels in Q4 both 2021 and 2023 remained flat across top loss contributors. Store-level availability was fully maintained, disconfirming supply chain bottlenecks or stockout issues.
+
+---
+
+# Root Cause Analysis Summary Table
+
+| Analysis | Result | Key Finding |
+| :--- | :---: | :--- |
+| **Region Concentration** | 🔴 **Confirmed** | Net Sales contraction is directly driven by **West Java (2021)** and **East Java (2023)**, serving as the primary regional drivers for overall top-line revenue loss. |
+| **Q4 Seasonal Transaction Drop** | 🔴 **Primary Loss Driver** | Net sales and transaction volume dropped exclusively during Q4 of loss years (**2021 & 2023**), while increasing in strong years (2020 & 2022). Pricing remained flat, confirming a seasonal decline. |
+| **Low Retention Rate & Churn Issues** | 🔴 **Main Structural Driver** | **Critically low baseline retention (1%–3%)** and customers churn drives revenue/sales to loss. |
+| **Transaction Volume in Core Products** | 🔴 **Primary Driver** | **Lower order frequency in high-revenue therapeutic categories** (*Psycholeptics, Analgesics, Antihistamines*) is also the driver of Net Sales loss across regional areas. |
 
 ---
 
 # Conclusion
 
-**The Net Sales decline is fundamentally driven by 2 factors: transaction volume drop concentrated in key high-revenue products and unstrategic pricing** across **West Java (2021)** and **East Java (2023)**. 
+The Net Sales decline in 2021 and 2023 was **not caused by operational bottlenecks, inventory shortages, service quality deficits, or catalog pricing changes**. Instead, it was fundamentally driven by a **low customer retention rate (1%–3% baseline retention)** combined with a **low repeat purchase behavior** in Q4 which also concentrated in key therapeutic product categories across **West Java (2021)** and **East Java (2023)**. Because of predominantly *one-time buyers*, top-line revenue remains overly dependent on new customer acquisition. When acquisition momentum slows down, sales experience a sharp decline.
 
-Operational factors, service quality deficits, seasonal effects, and stock availability are disconfirmed as root causes. Instead, unstrategic pricing adjustments drove a two-way commercial failure: broad price cuts decreasing sales without stimulating volume and unmanaged price hikes (without added value proportions) also triggered order frequency contractions. 
-
-Rather than executing list price changes, commercial strategy must pivot toward **stabilizing baseline prices and recovering order volume through structured trade deals/promotions/incentives**, and **supported by field market intelligence to address external demand drivers**.
+Moving forward, commercial strategy must pivot away from weak retention and customer acquisition reliance toward **recovering retention and Q4 repeat frequency through structured loyalty promo and incentives, targeted regional recovery, and field market intelligence**.
 
 ---
 
 # Actionable Strategy Recommendations
 
-1. **Prioritize Recovery of Key Loss-Contributing Products**  
-   Target high-revenue, high-margin products with the highest transaction drops (*Psycholeptics, Analgesics, Anti-inflammatory, Airway Disease drugs*) to maximize sales recovery impact.
+### Strategic Recommendations Summary
 
-2. **Shift Focus from Inventory Operations to Commercial Execution**  
-   Maintain existing buffer inventory standards while redirecting operational focus away from supply chain troubleshooting toward trade execution, market coverage, and salesforce activation.
+| Key Finding / Root Cause | Recommended Action | Priority & Impact |
+| :--- | :--- | :--- |
+| 🔴 **Critically Low Baseline Retention (1%–3%) & Customer Churn** | **Loyalty & Retention Framework**: <br>• **Frequency Rewards (Q4 Repeat Orders)**: Issue year-end cashback/vouchers redeemable only if buyers maintain regular purchases to lock in repeat transactions.<br>• **Onboarding Bounce-Back Vouchers**: Automatically send time-bound vouchers (valid 14–30 days post-purchase) to convert new buyers into repeat customers, closing the initial churn gap.<br>• **VIP/High Value Segments Protection**: Protect *Champions & Loyalists (~28.7% accounts driving ~67% sales)* through premium offers, priority inventory access and personalized exclusive campaigns. | **High Priority** *(LTV Expansion & Revenue Protection)* |
+| 🔴 **Transaction Loss in Core Categories & Regions (West & East Java)** | **Targeted Commercial Recovery**: <br>• Direct targeted promotions and inventory priority toward high-revenue therapeutic categories (*Psycholeptics, Analgesics/Antipyretics, Anti-histamines*).<br>• Concentrate promotional budgets and marketing push in **West Java (2021 focus)** and **East Java (2023 focus)** across affected branch networks (>40% dropping branches). | **High Priority** *(Immediate Volume Recovery)* |
+| 🔴 **Q4 Seasonal Volume Contraction** | **Q4 Performance-Based Incentives & Bundling**: <br>• Implement performance-based loyalty challenges for rewards.<br>• Pair high-demand anchor products with declining therapeutic categories to boost order value (*basket size*) per individual transaction during Q4 slowdown. | **High Priority** *(Q4 Volume Defense)* |
+| 🟠 **Unconfirmed External Demand Drivers** | **Customer Surveys & Feedback Validation**: Conduct brief post-purchase surveys among buyers to evaluate external friction (e.g., competitor pricing, brand substitution, delivery/onboarding pain points). | **Medium Priority** *(Strategic Validation)* |
 
-3. **Establish Disciplined Catalog Pricing (Address Price Cuts & Price Hikes)**  
-   - **Stop Unnecessary Price Cuts:** Avoid cutting catalog prices across the board. Keep base prices steady on products with low price sensitivity to protect overall revenue.
-   - **Re-evaluate Unaligned Price Hikes:** Review price increases (e.g., *Hypnotics & Sedatives* at **+1.20%**) that also contribute to sales decline. Ensure price hikes are backed by value propositions or trade support to prevent demand contraction.
-
-4. **Shift to Targeted Commercial Promotions**  
-   Replace permanent list-price changes with performance-driven trade promotions (volume-based tiered discounts, product bundling, and channel incentives) to boost order frequency while protecting baseline prices.
-
-5. **Focus Regional Recovery on West Java & East Java**  
-   Focus on priority recovery plans and set explicit volume and sales targets in **West Java** and **East Java**.
-
-6. **Conduct Field Market Intelligence & Monitor Effectiveness**  
-   - Deploy field teams to investigate external demand drivers (competitor price moves, pharmacy credit terms, customer demand shifts).
-   - Continuously monitor how price and trade adjustments impact transaction volume and Net Sales.
-
-7. **Segment Customers & Execute Targeted Strategies**
-   - Identify Declining Customers: Segment customers based on purchase frequency, recency, transaction value, product category, and geography to identify customers driving transaction declines.
-   - Prioritize Customers: Focus on high-value and declining customers, particularly those purchasing key loss-contributing products.
-   - Deploy Targeted Actions: Use personalized offers, product bundles, sales follow-ups, and reactivation programs based on customer behavior.
-   - Track Recovery: Monitor transaction frequency, repeat purchase rate, customer retention, and Net Sales by customer segment to measure intervention effectiveness.
-   
 ---
 
 # Interactive Dashboard & PPT
