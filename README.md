@@ -21,11 +21,12 @@ As the business continues to operate across diverse regions, leveraging historic
 Kimia Farma experienced **Net Sales declines in 2021 and 2023**. These declines may have been influenced by various commercial, operational, or market factors.
 
 This project integrates transactional, product, branch, and inventory data to assess business performance and identify the key factors contributing to the observed Net Sales decline across 5 structured analytical dimensions:
-1. **Year-over-Year Sales Trend**
+1. **Annual Sales Trend**
 2. **Seasonal Effect Analysis**
 3. **Geographical Performance Analysis**
 4. **Branch Performance & Service Quality Analysis**
 5. **Product Performance & Pricing Analysis**
+6. **Customer Behavior & Retention Rate Analysis (RFM and Cohort Analysis)**
 
 ---
 
@@ -43,11 +44,11 @@ The main objective of this project is to **identify and assess the key drivers b
 
 The analysis aims to:
 
-1. **Assess Business Performance:** Evaluate changes in Transaction Volume, Net Sales, and AOV to quantify the decline in 2021 and 2023.
-2. **Identify Key Contributors:** Determine priority provinces, branches, and product categories driving sales loss.
-3. **Evaluate Potential Drivers:** Assess operational service quality, pricing, and calendar seasonality.
-4. **Determine Key Root Causes:** Pinpoint the variables has impact on Net Sales contraction.
-5. **Formulate Priority Recovery Actions:** Translate findings into targeted commercial strategies.
+1. **Assess Business Performance:** Evaluate overall business performance to identify the main drivers of decline in 2021 and 2023.
+2. **Identify Key Contributors:** Determine seasonality, provinces, branches, and product performances.
+3. **Evaluate Potential Drivers:** Assess operational performance and pricing.
+4. **Determine Key Root Causes:** Pinpoint the variables has impact on Net Sales decline.
+5. **Formulate Priority Recovery Actions:** Translate findings into targeted strategies.
 
 ---
 
@@ -61,9 +62,9 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * `kf_inventory` — Inventory status data
 
 ### **Tools**
-* **SQL (Google BigQuery)** — Data integration, data transformation, and analytical querying
+* **SQL (Google BigQuery)** — Data integration, data transformation and querying
 * **Python** — Exploratory data analysis (EDA)
-* **Looker Studio** — Interactive dashboard development
+* **Looker Studio and PowerBI** — Interactive dashboard development with Looker Studio and PowerBI (using Power Query, Data & Relationship Modelling, DAX)
 * **CSV / Google Drive** — Dataset management
 
 # Insights
@@ -134,7 +135,8 @@ Moving forward, commercial strategy must pivot away from weak retention and cust
 
 # Interactive Dashboard & PPT
 
-* **Interactive Dashboard:** [Dashboard](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
+* **Looker Dashboard:** [Looker](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
+* **PowerBI Dashboard:** [PowerBI](https://drive.google.com/file/d/1KkDZGkJFeVRkn3-3g2jlEHNoitcgFTA9/view?usp=sharing)
 * **PPT:** [Slides](https://docs.google.com/presentation/d/1d9zZ8hxcTwWHzCfweiNWnFmOmumwUQRs/edit?usp=sharing&ouid=113253202730031428002&rtpof=true&sd=true)
 
 ---
