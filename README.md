@@ -48,7 +48,7 @@ The analysis aims to:
 2. **Identify Key Contributors:** Determine seasonality, provinces, branches, and product performances.
 3. **Evaluate Potential Drivers:** Assess operational performance and pricing.
 4. **Determine Key Root Causes:** Pinpoint the variables has impact on Net Sales decline.
-5. **Formulate Priority Recovery Actions:** Translate findings into targeted strategies.
+5. **Design Actionable Strategies:** Translate findings into targeted strategies.
 
 ---
 
@@ -63,9 +63,10 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ### **Tools**
 * **SQL (Google BigQuery)** — Data integration, data transformation and querying
-* **Python** — Exploratory data analysis (EDA)
-* **Looker Studio and PowerBI** — Interactive dashboard development with Looker Studio and PowerBI (using Power Query, Data & Relationship Modelling, DAX)
+* **Python** — Data Cleaning and Exploratory data analysis (EDA)
+* **Looker Studio** — Interactive dashboard development with Looker Studio
 * **CSV / Google Drive** — Dataset management
+* **Power BI** — Rebuild end-to-end data analytics and dashboard development with Power BI (connected to Google BigQuery to extract data from data warehouse, used Power Query for ETL, Data Cleaning and Transformation, Data & Relationship Modelling, DAX for Calculated Measures & Columns, and Load the data for dashboard development)
 
 # Insights
 
@@ -136,7 +137,7 @@ Moving forward, commercial strategy must pivot away from weak retention and cust
 # Interactive Dashboard & PPT
 
 * **Looker Dashboard:** [Looker](https://datastudio.google.com/reporting/162035e9-b789-43eb-8c4e-bb0dde04e1a7)
-* **PowerBI Dashboard:** [PowerBI](https://drive.google.com/file/d/1KkDZGkJFeVRkn3-3g2jlEHNoitcgFTA9/view?usp=sharing)
+* **PowerBI Dashboard:** [PowerBI](https://drive.google.com/file/d/1KkDZGkJFeVRkn3-3g2jlEHNoitcgFTA9/view?usp=drive_link)
 * **PPT:** [Slides](https://docs.google.com/presentation/d/1d9zZ8hxcTwWHzCfweiNWnFmOmumwUQRs/edit?usp=sharing&ouid=113253202730031428002&rtpof=true&sd=true)
 
 ---
