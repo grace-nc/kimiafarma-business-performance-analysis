@@ -107,10 +107,10 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 | Analysis | Result | Key Finding |
 | :--- | :---: | :--- |
-| **Region Concentration** | 🔴 **Confirmed** | Net Sales contraction is directly driven by **West Java (2021)** and **East Java (2023)**, serving as the primary regional drivers for overall top-line revenue loss. |
-| **Q4 Seasonal Transaction Drop** | 🔴 **Primary Loss Driver** | Net sales and transaction volume dropped exclusively during Q4 of loss years (**2021 & 2023**), while increasing in strong years (2020 & 2022). Pricing remained flat, confirming a seasonal decline. |
-| **Low Retention Rate & Churn Issues** | 🔴 **Main Structural Driver** | **Critically low baseline retention (1%–3%)** and customers churn drives revenue/sales to loss. |
-| **Transaction Volume in Core Products** | 🔴 **Primary Driver** | **Lower order frequency in high-revenue therapeutic categories** (*Psycholeptics, Analgesics, Antihistamines*) is also the driver of Net Sales loss across regional areas. |
+| **Q4 Seasonal Sales Drop** | 🔴 **Seasonal Loss Driver** | Sales and transaction volume drop in Q4 exclusively during loss years (**2021 & 2023**), while growing in strong years (2020 & 2022). |
+| **Low Retention Rate and Repeat Purchase Behavior** | 🔴 **Primary/Main Root Cause Driver of Sales Decline in 2021 and 2023** | **Critically low baseline retention (1%–3%)** impacted revenue both in Q4 2021 and Q4 2023 because of low repeat buying behavior. Q4 2023 suffered more sharp decline due to more severe customer churn. |
+| **Regional Sales Decline** | 🔴 **Regional Driver** | Net Sales decline is concentrated in **West Java (2021)** and **East Java (2023)**, serving as the primary regional focus for overall top-line revenue losses. |
+| **Transaction Volume in Key Products** | 🔴 **Product Driver** | **Lower transaction frequency in high-revenue therapeutic products** is also the driver of overall Net Sales loss across both regional regions. |
 
 ---
 
