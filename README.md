@@ -64,14 +64,14 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ### **Tools**
 * **CSV / Google Drive** — Dataset management
-1. First End-to-end Workflow:
+1. First End-to-end Flow:
 * **SQL (Google BigQuery)** — Data warehouse, data transformation and querying
+* **Looker Studio** — Connected with GBQ, Interactive dashboard development with Looker Studio
 * **Python** — EDA
-* **Looker Studio** — Interactive dashboard development with Looker Studio
 
-2. Second End-to-end Workflow (Rebuild end-to-end data analytics with Power BI):
+2. Second End-to-end Flow (Rebuild end-to-end data analytics with Power BI):
 * **SQL (Google BigQuery)** — Data warehouse
-* **Power BI** — Power Query for ETL and Data Modelling & DAX for Calculated Measures & Columns, and Load the data for dashboard development
+* **Power BI** — Connected with GBQ, Power Query for ETL and Data Modelling & DAX for Calculated Measures & Columns, and Load the data for dashboard development
 
 
 # Insights
