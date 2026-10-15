@@ -63,11 +63,16 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 * `kf_inventory` — Inventory status data
 
 ### **Tools**
-* **SQL (Google BigQuery)** — Data integration, data transformation and querying
-* **Python** — EDA
-* **Looker Studio** — Interactive dashboard development with Looker Studio (connected with SQL)
 * **CSV / Google Drive** — Dataset management
-* **Power BI** — Rebuild end-to-end data analytics and dashboard development with Power BI (connected to Google BigQuery to extract data from data warehouse, used Power Query for ETL, Data & Relationship Modelling, DAX for Calculated Measures & Columns, and Load the data for dashboard development)
+1. First Workflow:
+* **SQL (Google BigQuery)** — Data warehouse, data transformation and querying
+* **Python** — EDA
+* **Looker Studio** — Interactive dashboard development with Looker Studio
+
+2. Second Workflow (Rebuild end-to-end data analytics with Power BI):
+* **SQL (Google BigQuery)** — Data warehouse
+* **Power BI** — Power Query for ETL and Data Modelling & DAX for Calculated Measures & Columns, and Load the data for dashboard development
+
 
 # Insights
 
