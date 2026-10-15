@@ -64,7 +64,6 @@ Joined into a master analytical table using SQL in **Google BigQuery**:
 
 ### **Tools**
 * **SQL (Google BigQuery)** — Data integration, data transformation and querying
-* **Python** — Exploratory data analysis (EDA)
 * **Looker Studio** — Interactive dashboard development with Looker Studio
 * **CSV / Google Drive** — Dataset management
 * **Power BI** — Rebuild end-to-end data analytics and dashboard development with Power BI (connected to Google BigQuery to extract data from data warehouse, used Power Query for ETL, Data & Relationship Modelling, DAX for Calculated Measures & Columns, and Load the data for dashboard development)
